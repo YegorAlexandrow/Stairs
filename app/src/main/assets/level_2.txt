@@ -1,0 +1,317 @@
+background #EBF9FA
+theme red
+decor &_flag 5 5 3
+decor &_roof2_l 4 4 4
+decor &_roof2_r 4 5 4
+decor &_bg2_l -3 4 5
+decor &_roof1_l 4 4 5
+decor &_bg2_r -3 5 5
+decor &_roof1_r 4 5 5
+decor &_roof2_l 4 3 6
+decor &_bg1_l -3 4 6
+decor &_roof3_l 4 4 6
+decor &_bg1_r -2 5 6
+decor &_decor -1 5 6
+decor &_roof3_r 4 5 6
+decor &_roof2_r 4 6 6
+decor &_bg2_l -3 3 7
+decor &_wall_sl 3 3 7
+decor &_roof1_l 4 3 7
+decor &_bg2_r -3 6 7
+decor &_wall_sr 3 6 7
+decor &_roof1_r 4 6 7
+decor &_bg_l -3 3 8
+decor &_roof0_l 4 3 8
+decor &_bg -3 4 8
+decor &_bg -3 5 8
+decor &_big -2 5 8
+decor &_bg_r -3 6 8
+decor &_roof0_r 4 6 8
+decor &_bg_l -2 3 9
+decor &_wall_lb 3 3 9
+decor &_parapet_r 4 3 9
+decor &_bg -3 4 9
+decor &_parapet 4 4 9
+decor &_bg -3 5 9
+decor &_parapet 4 5 9
+decor &_bg_r -2 6 9
+decor &_wall_rb 3 6 9
+decor &_parapet_l 4 6 9
+decor &_bg_l -2 3 10
+decor &_wall_l 3 3 10
+decor &_bg -3 4 10
+decor &_bg -3 5 10
+decor &_bg_r -2 6 10
+decor &_decor -1 6 10
+decor &_wall_r 3 6 10
+decor &_bg_l -2 3 11
+decor &_wall_l 3 3 11
+decor &_bg -3 4 11
+decor &_bg -3 5 11
+decor &_bg_r -2 6 11
+decor &_wall_r 3 6 11
+decor &_bg_l -2 3 12
+decor &_wall_l 3 3 12
+decor &_bg -3 4 12
+decor &_decor -1 4 12
+decor &_bg -3 5 12
+decor &_bg_r -2 6 12
+decor &_decor -1 6 12
+decor &_wall_r 3 6 12
+decor &_flag 5 7 12
+decor &_flag 5 9 12
+decor &_flag 5 11 12
+decor &_bg_l -2 3 13
+decor &_wall_l 3 3 13
+decor &_bg -3 4 13
+decor &_bg -3 5 13
+decor &_decor -1 5 13
+decor &_bg_r -2 6 13
+decor &_parapet_lite_r 2 6 13
+decor &_wall_r 3 6 13
+decor &_parapet 4 7 13
+decor &_parapet 4 8 13
+decor &_parapet 4 9 13
+decor &_parapet 4 10 13
+decor &_parapet_l 4 11 13
+decor &_bg_l -2 3 14
+decor &_wall_l 3 3 14
+decor &_bg -3 4 14
+decor &_decor -1 4 14
+decor &_bg -3 5 14
+decor &_bg -3 6 14
+decor &_bg_r -2 6 14
+decor &_decor -1 6 14
+decor &_wall_r 3 6 14
+decor &_bg -3 7 14
+decor &_bg -3 8 14
+decor &_bg -3 9 14
+decor &_bg -3 10 14
+decor &_bg_r -2 11 14
+decor &_wall_r 3 11 14
+decor &_bg_l -2 3 15
+decor &_wall_l 3 3 15
+decor &_bg -3 4 15
+decor &_bg -3 5 15
+decor &_decor -1 5 15
+decor &_bg -3 6 15
+decor &_wall_r 3 6 15
+decor &_bg -3 7 15
+decor &_decor -1 7 15
+decor &_bg -3 8 15
+decor &_bg -3 9 15
+decor &_little -2 9 15
+decor &_bg -3 10 15
+decor &_bg_r -2 11 15
+decor &_decor -1 11 15
+decor &_wall_r 3 11 15
+decor &_flag 5 13 15
+decor &_bg_l -2 3 16
+decor &_wall_l 3 3 16
+decor &_bg -3 4 16
+decor &_bg -3 5 16
+decor &_bg -3 6 16
+decor &_decor -1 6 16
+decor &_wall_r 3 6 16
+decor &_bg -3 7 16
+decor &_bg -3 8 16
+decor &_decor -1 8 16
+decor &_bg -3 9 16
+decor &_bg -3 10 16
+decor &_decor -1 10 16
+decor &_bg_r -2 11 16
+decor &_parapet_lite_r 2 11 16
+decor &_wall_rb 3 11 16
+decor &_parapet 4 12 16
+decor &_parapet_l 4 13 16
+decor &_bg_l -2 3 17
+decor &_wall_l 3 3 17
+decor &_bg -3 4 17
+decor &_bg -3 5 17
+decor &_bg -3 6 17
+decor &_wall_r 3 6 17
+decor &_bg -3 7 17
+decor &_decor -1 7 17
+decor &_bg -3 8 17
+decor &_bg -3 9 17
+decor &_decor -1 9 17
+decor &_bg -3 10 17
+decor &_bg -3 11 17
+decor &_decor -1 11 17
+decor &_bg -3 12 17
+decor &_bg_r -2 13 17
+decor &_wall_r 3 13 17
+decor &_bg_l -2 3 18
+decor &_wall_l 3 3 18
+decor &_bg -3 4 18
+decor &_decor -1 4 18
+decor &_bg -3 5 18
+decor &_bg -3 6 18
+decor &_decor -1 6 18
+decor &_wall_r 3 6 18
+decor &_bg -3 7 18
+decor &_bg -3 8 18
+decor &_decor -1 8 18
+decor &_bg -3 9 18
+decor &_bg -3 10 18
+decor &_bg -3 11 18
+decor &_bg -3 12 18
+decor &_decor -1 12 18
+decor &_bg_r -2 13 18
+decor &_wall_r 3 13 18
+decor &_grass -4 0 19
+decor &_grass -4 1 19
+decor &_grass -4 2 19
+decor &_grass -4 3 19
+decor &_bridge_r1 2 3 19
+decor &_grass -4 4 19
+decor &_bridge 2 4 19
+decor &_grass -4 5 19
+decor &_bridge 2 5 19
+decor &_grass -4 6 19
+decor &_bridge 2 6 19
+decor &_grass -4 7 19
+decor &_bridge 2 7 19
+decor &_grass -4 8 19
+decor &_bridge 2 8 19
+decor &_grass -4 9 19
+decor &_bridge 2 9 19
+decor &_grass -4 10 19
+decor &_bridge 2 10 19
+decor &_grass -4 11 19
+decor &_bridge 2 11 19
+decor &_grass -4 12 19
+decor &_bridge 2 12 19
+decor &_grass -4 13 19
+decor &_bridge_l1 2 13 19
+decor &_grass -4 14 19
+decor &_grass -4 15 19
+decor &_grass_mid -4 0 20
+decor &_grass_mid -4 1 20
+decor &_grass_mid -4 2 20
+decor &_grass_mid -4 3 20
+decor &_grass_mid -4 4 20
+decor &_grass_mid -4 5 20
+decor &_grass_mid -4 6 20
+decor &_grass_mid -4 7 20
+decor &_grass_mid -4 8 20
+decor &_grass_mid -4 9 20
+decor &_grass_mid -4 10 20
+decor &_grass_mid -4 11 20
+decor &_grass_mid -4 12 20
+decor &_grass_mid -4 13 20
+decor &_grass_mid -4 14 20
+decor &_grass_mid -4 15 20
+decor &_grass_deep -4 0 21
+decor &_grass_deep -4 1 21
+decor &_grass_deep -4 2 21
+decor &_grass_deep -4 3 21
+decor &_grass_deep -4 4 21
+decor &_grass_deep -4 5 21
+decor &_grass_deep -4 6 21
+decor &_grass_deep -4 7 21
+decor &_grass_deep -4 8 21
+decor &_grass_deep -4 9 21
+decor &_grass_deep -4 10 21
+decor &_grass_deep -4 11 21
+decor &_grass_deep -4 12 21
+decor &_grass_deep -4 13 21
+decor &_grass_deep -4 14 21
+decor &_grass_deep -4 15 21
+empty 0 0
+empty 1 0
+empty 2 0
+empty 3 0
+empty 4 0
+empty 6 0
+empty 7 0
+empty 8 0
+empty 9 0
+empty 10 0
+empty 0 1
+empty 1 1
+empty 2 1
+empty 3 1
+empty 6 1
+empty 7 1
+empty 8 1
+empty 9 1
+empty 10 1
+empty 0 2
+empty 1 2
+empty 2 2
+empty 6 2
+empty 7 2
+empty 8 2
+empty 9 2
+empty 10 2
+empty 0 3
+empty 1 3
+empty 5 3
+empty 6 3
+empty 7 3
+empty 8 3
+empty 9 3
+empty 10 3
+empty 0 4
+empty 4 4
+empty 5 4
+empty 6 4
+empty 7 4
+empty 8 4
+empty 9 4
+empty 10 4
+empty 5 5
+empty 6 5
+empty 7 5
+empty 8 5
+empty 9 5
+empty 10 5
+empty 6 6
+empty 7 6
+empty 8 6
+empty 9 6
+empty 10 6
+empty 0 7
+empty 6 7
+empty 7 7
+empty 8 7
+empty 9 7
+empty 10 7
+empty 0 8
+empty 1 8
+empty 5 8
+empty 6 8
+empty 7 8
+empty 8 8
+empty 9 8
+empty 10 8
+empty 0 9
+empty 1 9
+empty 2 9
+empty 6 9
+empty 7 9
+empty 8 9
+empty 9 9
+empty 10 9
+empty 0 10
+empty 1 10
+empty 2 10
+empty 3 10
+empty 4 10
+empty 5 10
+empty 6 10
+empty 7 10
+empty 8 10
+empty 9 10
+empty 10 10
+item exit 4 9 pickable
+empty1 5 9
+item lock_yellow 4 9 pickable
+item key_yellow 5 0 pickable
+decor pointer -1 10 18 key_yellow_item -1 -1
+decor pointer -1 5 17 key_yellow_item 0 -1
+decor pointer -1 5 11 exit_item 1 1
+hero 5 6
+
+maze 4 9 6 11

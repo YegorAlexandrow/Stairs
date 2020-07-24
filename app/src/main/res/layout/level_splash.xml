@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:stairs="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/level_splash"
+    android:background="@drawable/brickbitmap">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.45"
+        android:background="@drawable/splash_gradient"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView3"
+            android:src="@drawable/logo"
+            android:scaleType="fitStart"
+            android:scaleX="0.65"
+            android:scaleY="0.65"
+            android:layout_centerInParent="true" />
+
+        <stairs.iceberg.com.stairs.FontText
+            android:id="@+id/myImageViewText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/gamesplash_castle"
+            android:textSize="36sp"
+            stairs:customFont="font.ttf"
+            android:layout_centerHorizontal="true"
+            android:layout_alignTop="@+id/imageView3"
+            android:layout_marginTop="-3mm"
+            android:textColor="#000000" />
+
+
+
+    <stairs.iceberg.com.stairs.FontText
+        android:id="@+id/fontText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/gamesplash_waiting"
+        android:textSize="26dp"
+        stairs:customFont="font.ttf"
+        android:textColor="#000000"
+        android:layout_marginBottom="4mm"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

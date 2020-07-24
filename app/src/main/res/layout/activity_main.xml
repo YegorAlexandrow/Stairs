@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:stairs="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/game_layout"
+    tools:context="stairs.iceberg.com.stairs.Main">
+
+    <stairs.iceberg.com.stairs.GameBackground
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/view2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <stairs.iceberg.com.stairs.Renderer
+        android:layout_width="match_parent"
+        android:id="@+id/renderer"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="3dp"
+        android:layout_alignParentLeft="true">
+
+        <ImageButton
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:background="@drawable/button_game_background"
+            android:scaleType="centerInside"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:paddingTop="3dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="6dp"
+            android:paddingBottom="6dp"
+            android:id="@+id/button_item_0" />
+
+        <ImageButton
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:background="@drawable/button_game_background"
+            android:scaleType="centerInside"
+            android:layout_marginRight="1dp"
+            android:paddingTop="3dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="6dp"
+            android:paddingBottom="6dp"
+            android:id="@+id/button_item_1" />
+
+        <ImageButton
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:background="@drawable/button_game_background"
+            android:scaleType="centerInside"
+            android:layout_marginRight="1dp"
+            android:paddingTop="3dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="6dp"
+            android:paddingBottom="6dp"
+            android:id="@+id/button_item_2" />
+
+        <ImageButton
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:background="@drawable/button_game_background"
+            android:scaleType="centerInside"
+            android:layout_marginRight="1dp"
+            android:paddingTop="3dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="6dp"
+            android:paddingBottom="6dp"
+            android:id="@+id/button_item_3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/icons"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingRight="3dp"
+        android:paddingTop="3dp"
+        android:layout_alignParentRight="true">
+
+        <ImageButton
+            android:src="@drawable/icon_restart"
+            android:onClick="restart"
+            android:id="@+id/button_restart"
+            style="@style/game_button" />
+
+        <ImageButton
+            android:src="@drawable/icon_settings"
+            android:onClick="showMenu"
+            android:id="@+id/button_settings"
+            style="@style/game_button" />
+
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:visibility="invisible">
+
+            <ImageButton
+                android:src="@drawable/icon_hint"
+                android:onClick="hint"
+                android:id="@+id/button_hint"
+                style="@style/game_button" />
+
+            <stairs.iceberg.com.stairs.FontText
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:textSize="6sp"
+                android:gravity="center"
+                android:text="0"
+                android:id="@+id/text_hint"
+                android:textColor="@color/colorBackground"
+                stairs:customFont="font.ttf"
+                android:background="@drawable/circle"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/menu_game"
+        android:layout_below="@+id/icons"
+        android:layout_marginTop="24dp"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true">
+
+        <stairs.iceberg.com.stairs.FontButton
+            android:text="@string/menu_sfx"
+            android:id="@+id/button_sfx"
+            android:onClick="clickSfx"
+            stairs:customFont="font.ttf"
+            stairs:customIcon="@drawable/icon_sfx"
+            style="@style/menu_game_button" />
+
+        <stairs.iceberg.com.stairs.FontButton
+            android:text="@string/menu_bgm"
+            android:id="@+id/button_bgm"
+            android:onClick="clickBgm"
+            stairs:customFont="font.ttf"
+            stairs:customIcon="@drawable/icon_bgm"
+            style="@style/menu_game_button" />
+
+        <stairs.iceberg.com.stairs.FontButton
+            android:text="@string/menu_buttons"
+            android:id="@+id/button_keys"
+            android:onClick="clickJoystick"
+            stairs:customFont="font.ttf"
+            stairs:customIcon="@drawable/icon_joystick"
+            style="@style/menu_game_button" />
+
+        <stairs.iceberg.com.stairs.FontButton
+            android:text="@string/menu_back"
+            android:id="@+id/button_back"
+            stairs:customFont="font.ttf"
+            android:onClick="clickBack"
+            stairs:customIcon="@drawable/icon_back"
+            style="@style/menu_game_button" />
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/joystick"
+        android:columnCount="2"
+        android:rowCount="2">
+
+        <ImageButton
+            android:src="@drawable/nw"
+            android:onClick="move"
+            android:id="@+id/button_nw"
+            android:layout_row="0"
+            android:layout_column="0"
+            style="@style/move_button" />
+
+        <ImageButton
+            android:src="@drawable/sw"
+            android:onClick="move"
+            android:id="@+id/button_sw"
+            android:layout_row="1"
+            android:layout_column="0"
+            style="@style/move_button" />
+        <ImageButton
+            android:src="@drawable/ne"
+            android:onClick="move"
+            android:id="@+id/button_ne"
+            android:layout_row="0"
+            android:layout_column="1"
+            style="@style/move_button" />
+
+        <ImageButton
+            android:src="@drawable/se"
+            android:onClick="move"
+            android:id="@+id/button_se"
+            android:layout_row="1"
+            android:layout_column="1"
+            style="@style/move_button" />
+
+    </GridLayout>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/level_splash" />
+
+</RelativeLayout>

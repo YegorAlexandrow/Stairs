@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:stairs="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/mainmenu_layout"
+    android:layout_height="match_parent"
+    android:background="@drawable/brickbitmap">
+
+    <stairs.iceberg.com.stairs.GameBackground
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/view158"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.62"
+        android:id="@+id/imageView_logo_main"
+        android:src="@drawable/logo"
+        android:scaleX="0.82"
+        android:scaleY="0.82" />
+
+        <stairs.iceberg.com.stairs.ShadowBackground
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.38"
+        android:id="@+id/view3"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/menumenu"
+        android:padding="3mm">
+
+        <stairs.iceberg.com.stairs.FontButton
+            android:text="@string/mainmenu_continue"
+            android:id="@+id/button_continue"
+            stairs:customFont="font.ttf"
+            style="@style/menu_game_button"
+            android:onClick="loadAutosave" />
+
+        <stairs.iceberg.com.stairs.FontButton
+            android:text="@string/mainmenu_start"
+            android:id="@+id/button_start"
+            stairs:customFont="font.ttf"
+            style="@style/menu_game_button"
+            android:onClick="start" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingRight="3dp"
+        android:paddingTop="3dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/linearLayout2">
+
+        <ImageButton
+            android:src="@drawable/icon_menu_sfx"
+            android:id="@+id/button_menu_sfx"
+            android:onClick="clickSfx"
+            style="@style/game_button" />
+
+        <ImageButton
+            android:src="@drawable/icon_menu_bgm"
+            android:id="@+id/button_menu_bgm"
+            android:onClick="clickBgm"
+            style="@style/game_button" />
+
+    </LinearLayout>
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="stairs.iceberg.com.stairs.LevelFragment"
+        android:id="@+id/fragment"
+        android:layout_gravity="center_horizontal"
+        tools:layout="@layout/activity_levels" />
+
+</RelativeLayout>

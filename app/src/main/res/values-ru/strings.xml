@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Castles &amp; Stairs</string>
+    <string name="menu_bgm">Музыка</string>
+    <string name="menu_sfx">Звуки</string>
+    <string name="menu_on">on</string>
+    <string name="menu_off">off</string>
+    <string name="menu_help">Помощь</string>
+    <string name="menu_buttons">Кнопки</string>
+    <string name="menu_back">Выход</string>
+
+    <string name="mainmenu_continue">Продолжить</string>
+    <string name="mainmenu_start">Играть</string>
+    <string name="mainmenu_editor">Редактор</string>
+
+    <string name="gamesplash_castle">Замок</string>
+    <string name="gamesplash_waiting">Ждём следующий замок</string>
+    <string name="gamesplash_restart">Ждём следующий замок…\nснова</string>
+    <string name="gamesplash_lose">Похоже, вас кто-то съел.\nПопробуйте ещё раз</string>
+
+    <string name="stage_1_title">Учим основы</string>
+
+    <string name="autosave_dialog_title">Продолжить?</string>
+    <string name="autosave_dialog_msg">У Вас есть автосохранение этого уровня. Хотите продолжить?</string>
+    <string name="autosave_dialog_yes">Продолжить</string>
+    <string name="autosave_dialog_no">Заново</string>
+
+    <string name="press_to_exit">Нажмите ещё раз, чтобы выйти!</string>
+
+    <string-array name="stage_titles">
+        <item>Учим основы</item>
+        <item>Глава 1</item>
+        <item>Продолжение следует?</item>
+        <item>Продолжение следует?</item>
+    </string-array>
+
+    <string-array name="themes">
+        <item>red</item>
+        <item>green</item>
+        <item>gray</item>
+        <item>viol</item>
+    </string-array>
+
+    <string name="cue_hint">Небольшая подсказка</string>
+    <string name="cue_buttons">кнопки</string>
+    <string name="cue_swipes">Свайпы</string>
+
+    <string-array name="level_cues">
+        <item>Лестницы имеют свойство загадочным образом менять свое положение. Попробуйте добраться до выхода.\n\nЧто использовать для управления?</item>
+        <item>Иногда путь до выхода не столь очевиден</item>
+        <item>Зелёные ключи, например, открывыют зелёные замки́. А жёлтые?</item>
+        <item>Есть персонажи, готовые обменяться с Вами чем-то полезным</item>
+        <item>В сундуках лежит что-то полезное. А как их открыть?</item>
+        <item>Некоторые замки патрулируют приведения. Они туповаты и ходят только по диагонали.\n\nКстати, им не нужны лестницы, чтобы ходить</item>
+        <item>---</item>
+        <item>Да кто же строит эти замки?!</item>
+        <item>---</item>
+        <item>Если хоть немного задеть наковальню, то она упадёт</item>
+        <item>Нетрудно заметить: наковальня ломает всё, на что она приземлится</item>
+        <item>Иногда с помощью наковальни можно получить двойную выгоду</item>
+        <item>А ещё есть плотоядные рыбы…</item>
+        <item>---</item>
+        <item>В конце этой главы Вас поджидает босс…</item>
+        <item>---</item>
+        <item>---</item>
+        <item>Спасибо, но босс в другом замке!</item>
+    </string-array>
+
+</resources>

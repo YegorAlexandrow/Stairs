@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Castles &amp; Stairs</string>
+    <string name="menu_bgm">Music</string>
+    <string name="menu_sfx">Effects</string>
+    <string name="menu_on">on</string>
+    <string name="menu_off">off</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_buttons">Joystick</string>
+    <string name="menu_back">Exit</string>
+
+    <string name="mainmenu_continue">Continue</string>
+    <string name="mainmenu_start">Play</string>
+    <string name="mainmenu_editor">Editor</string>
+
+    <string name="gamesplash_castle">Castle</string>
+    <string name="gamesplash_waiting">Going to\nthe next castle</string>
+    <string name="gamesplash_restart">Going to\nthis castle…\nagain</string>
+    <string name="gamesplash_lose">It seems that someone ate you.\nTry again</string>
+
+    <string name="stage_1_title">Learn the basics</string>
+
+    <string name="autosave_dialog_title">Continue?</string>
+    <string name="autosave_dialog_msg">You have autosave for this level. Do you want to load it?</string>
+    <string name="autosave_dialog_yes">Load</string>
+    <string name="autosave_dialog_no">Restart</string>
+
+    <string name="press_to_exit">Press once again to exit!</string>
+
+    <string-array name="themes">
+        <item>red</item>
+        <item>green</item>
+        <item>gray</item>
+        <item>viol</item>
+    </string-array>
+
+    <string-array name="stage_titles">
+        <item>Learn the basics</item>
+        <item>Adventure begins!</item>
+        <item>To be continued…</item>
+        <item>To be continued…</item>
+    </string-array>
+
+
+    <string name="cue_hint">Small hint</string>
+    <string name="cue_buttons">buttons</string>
+    <string name="cue_swipes">Swipes</string>
+
+    <string-array name="level_cues">
+        <item>The stairs have a property of changing their position in a mysterious manner. Try to get to the exit.\n\nWhat type of controls do you prefer?</item>
+        <item>Sometimes the way to the exit isn\'t so easy, as you think</item>
+        <item>For example, green key open green lock. But what about yellow lock?</item>
+        <item>Some characters are ready to exchange with you something useful</item>
+        <item>There are anything useful in the chests. But how to open them?</item>
+        <item>Some castles are patrolling by the ghosts. They are slightly stoopid and moves diagonally.\n\nBy the way, they no need stairs to move.</item>
+        <item>---</item>
+        <item>Who are building these castles?!</item>
+        <item>---</item>
+        <item>Even if the anvil is slightly touched, it will fall</item>
+        <item>As you can see, the anvil smashes everything it falls on</item>
+        <item>Sometimes you can get a double benefit with an anvil…</item>
+        <item>And there are carnivorous fish…</item>
+        <item>---</item>
+        <item>At the end of this chapter, a boss is waiting for you…</item>
+        <item>---</item>
+        <item>---</item>
+        <item>Thank you [username]!\n\nBut the boss is in\nanother castle!</item>
+        <item>---</item>
+        <item>---</item>
+        <item>---</item>
+        <item>---</item>
+        <item>---</item>
+        <item>---</item>
+        <item>---</item>
+        <item>---</item>
+        <item>---</item>
+    </string-array>
+
+</resources>
